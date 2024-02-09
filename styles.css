@@ -1,22 +1,30 @@
-#mainpage{
-    color:white;
-   background-image: url(https://media.idownloadblog.com/wp-content/uploads/2022/10/Control-Spotify-Mac-menu-bar.jpg);
-    height:1000px;
-    width:1500px;
+#mainpage {
+    color: white;
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2022/10/Control-Spotify-Mac-menu-bar.jpg);
+    height: 100vh;
+    width: 100%;
     background-size: cover;
-    margin-top:0px;
-    background-color:black;
-    background-
+    margin-top: 0;
+    background-color: black;
+}
 
-}
-#sidebar{
-    color:white;
-    background-color:black;
-    height:1000px;
-    width:240px;
+#sidebar {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
     text-align: center;
+    display: none; 
 }
-#logo{
-    height:60px;
-    width: 240px;
+
+@media (min-width: 768px) {
+    #sidebar {
+        display: block;
+        width: 240px;
+    }
+}
+
+#logo {
+    height: 60px;
+    width: 100%;
 }
